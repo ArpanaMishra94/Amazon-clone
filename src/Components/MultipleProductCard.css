@@ -1,0 +1,19 @@
+.multipleProductCard {
+    height: 30vh;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    z-index: 1;
+    background-color: white;
+    justify-content: center;
+}
+.multipleProductCard > p{
+    font-size: larger;
+    color: #585858;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.multipleProduct__gridItem{
+    text-align: center;
+    cursor: pointer;
+}

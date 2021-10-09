@@ -1,0 +1,18 @@
+.hamburgerButton{
+    font-size: 20px;
+    cursor: pointer;
+    margin: -6px -10px 0 2px;
+    display: flex;
+    border: 1px solid #2c3949;
+    margin-bottom: 1px;
+    color: white;
+    z-index: 1;
+}
+.hamburgerButton:hover {
+   border-radius: 2px;
+   border: 1px solid white;
+}
+.hamburgerButton > h6 {
+    margin: auto;
+color: white;
+}

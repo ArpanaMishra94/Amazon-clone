@@ -1,0 +1,120 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+} 
+.footer__top{
+    background-color: #37475A;
+    color: white;
+    height: 5vh;
+}
+.footer__top:hover {
+     cursor: pointer;
+     background-color: #4c5b6d;
+}
+.footer__top > h6 {
+    text-align: center;
+    padding: 17px 20px;
+    font-size: small;
+    font-weight: 400;
+}
+.footer__mid1{
+    background-color: #232F3E;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    color: white;
+    border-bottom: 1px solid #455772;
+}
+#footer__secondCol{
+    margin-left: 110px;
+    margin-right: 55px;
+}
+#footer__thirdCol{
+    margin-left: 55px;
+    margin-right: 110px;
+}
+
+.footer__col1 > h4{
+    margin-top: 50px;
+    margin-left: 5px;
+}
+
+.footer__col1 > h6{
+   font-weight: 400;
+   padding: 6px;
+   font-size: small;
+   cursor: pointer;
+  
+}
+.footer__col1 > h6:hover{
+   text-decoration: underline;
+}
+.footer__mid2{
+    background-color: #232F3E;
+    height: 15vh;
+    
+}
+.footer__mid2Img{
+    margin-top: 35px;
+    margin-left: 40%;
+    
+}
+.footer__mid2Img > img{
+    width: 80px;
+    cursor: pointer;
+}
+.footer__countries{
+    color: white;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+.footer__countries > h6{
+    font-weight: 200;
+    margin: 10px 8px;
+     
+}
+.footer__countries > h6:hover{
+    text-decoration: underline;
+}
+.footer__restCountries{
+    display: flex;
+    justify-content: center;
+}
+.footer__restCountries > h6{
+    font-weight: 200;
+    margin: 0px 10px;
+    color: white;
+}
+.footer__bottom{
+    background-color: #131A22;
+    color: white;
+    height: 21vh;
+}
+.footer__bottom1{
+    display: flex;
+    justify-content: center;
+   
+}
+.footer__List{
+    margin: 30px 65px;
+    cursor: pointer;
+}
+.footer__List > h6{
+    font-weight: 100;
+}
+.footer__List > p {
+    font-size: 9px;
+    color: #6e7b8a;
+    margin-bottom: 12px;
+}
+.footer__bottom2{
+    display: flex;
+    justify-content: center;
+    color: #c3c6c8;
+   
+}
+.footer__bottom2 > h6{
+    margin: 10px 10px;
+    font-weight: 500;
+}

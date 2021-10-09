@@ -1,0 +1,59 @@
+
+
+.checkout__top {
+    height: 25vh;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    width: 80%;
+    background-color: white;
+    display: flex;
+}
+.checkout__topRight{
+    position: relative;
+    top: 25%;
+}
+.checkout__topRight > p {
+    font-size: small;
+    color: rgb(10, 105, 101);
+}
+.checkout__topRight > p:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color: #af5d19;
+}
+.checkout__top > img{
+    height: 10vh;
+    position: relative;
+    top: 25%;
+    margin-left: 5%;
+    margin-right: 3%;
+}
+.checkout__buttons{
+    margin-top: 25px;
+}
+.checkout__buttons > button{
+    border-radius: 6px;
+    height: 3.5vh;
+    cursor: pointer;
+}
+.checkout__signInButton{
+    background-color: rgb(255, 209, 6);
+    border: none;
+    padding: 5px 10px 5px 10px;
+    margin-right: 10px;
+}
+.checkout__signUpButton{
+    background-color: white;
+    padding: 5px 10px 5px 10px;
+    border: 1px solid rgb(170, 169, 169);
+}
+.checkout > p{
+    margin-left: 20px;
+    font-size: small;
+}
+.checkout__midBottom{
+    background-color: white;
+    margin-top: 20px;
+    height: 3vh;
+}

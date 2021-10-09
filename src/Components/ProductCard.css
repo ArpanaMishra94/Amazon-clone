@@ -1,0 +1,60 @@
+.productCard {
+    z-index: 1;
+    background-color: white;
+    justify-content: center;
+    height: 44vh;
+    width: 342px;
+    position: relative;
+} 
+.card__cardInnerTop > h3{
+    font-size: 22px;
+    margin-bottom: 10px;
+    margin: 22px 20px 0px 20px;
+}
+.card__cardInnerMid > img{
+    margin: 22px 20px 0px 20px;
+    height: 275px;
+    width: 303px;
+    object-fit: cover;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.fourCard__cardInnerMid{
+    margin: 22px 20px 0px 20px;
+    height: 275px;
+    width: 303px;
+    margin-bottom: 20px;
+}
+.grid__item{
+    height: 100px;
+    margin-bottom: 45px;
+}
+.grid__item1{
+margin-left: -7px;
+}
+.grid__item > img{
+    height: 107px;
+    width: 136px;
+    object-fit: cover;
+    padding: 0px 0px 4px 0px;
+    margin: 0px 0px 3px 7px;
+}
+.grid__item > p{
+    font-size: 12px;
+    padding: 0px 0px 4px 0px;
+    margin: 0px 0px 3px 7px;
+    cursor: pointer;
+}
+.card__cardInnerBottom > p{
+    color: rgb(26, 26, 253);
+    cursor: pointer;
+    font-size: 12px;
+    position: absolute;
+    bottom: 25px;
+    margin-left: 20px;
+}
+.card__cardInnerBottom > p:hover{
+    color: #af5d19;
+    cursor: pointer;
+    text-decoration: underline;
+}

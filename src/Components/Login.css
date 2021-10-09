@@ -1,0 +1,70 @@
+.login{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    height: 100vh;
+    align-items: center;
+}
+.login__logo{
+    margin-top: 15px;
+    margin-bottom: 18px;
+    width: 105px;
+    object-fit: contain;
+}
+.login__container{
+    width: 300px;
+    border: 1px solid lightgray;
+    padding: 25px;
+    border-radius: 4px;
+}
+.login__container > h1{
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.login__container > form > h5 {
+    margin-bottom: 5px;
+    
+}
+.login__container > form > h6 {
+    font-weight: 400;
+    font-size: 11px;
+}
+.login__container > form > h6 > a {
+    text-decoration: none;
+}
+.login__container > form > p{
+    margin-top: 25px;
+    font-size: small;
+}
+.login__container > form > p > a {
+    text-decoration: none;
+
+}
+.login__container > form > input {
+    margin-bottom: 15px;
+    width: 99%;
+    height: 26px;
+    border-radius: 4px;
+    border: 1px solid #b9b3b3;
+}
+.login__container > form > button {
+    width: 101%;
+    margin-bottom: 20px;
+    background-color: #f0c14b;
+    border-radius: 4px;
+    height: 30px;
+    border: 1px solid #9a7d46;
+}
+.login__text1{
+    margin-bottom: 5px;
+}
+.login > p{
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-size: small;
+    color: gray;
+}
+.login > button {
+    width: 19%;
+    height: 4vh;
+}

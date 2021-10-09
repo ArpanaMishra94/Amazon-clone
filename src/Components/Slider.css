@@ -1,0 +1,28 @@
+.slider{
+    max-width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.image{
+    width: 100%;
+    mask-image: linear-gradient(to bottom, rgb(158, 31, 31),rgba(0,0,0,0));    
+    z-index: -1;
+    margin-bottom: -150px;
+}
+.right-arrow{
+    position: absolute;
+    top: 20%;
+    font-size: 3rems;
+    right: 10%;
+    z-index: 10;
+    cursor: pointer;
+    animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.left-arrow{
+    position: absolute;
+    top: 20%;
+    font-size: 3rems;
+    left: 11%;
+    z-index: 10;
+    cursor: pointer;
+}

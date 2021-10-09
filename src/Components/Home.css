@@ -1,0 +1,11 @@
+.home {
+    max-width: 1450px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -198px;
+    display: grid;
+    background-color: transparent;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 18px;
+    row-gap: 18px;
+}

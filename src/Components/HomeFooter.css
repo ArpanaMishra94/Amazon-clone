@@ -1,0 +1,43 @@
+.homeFooter{
+    background-color: white;
+}
+.homeFooter__top{
+    height: 4.5vh;
+    margin-top: 25px;
+    border-bottom: 1px solid rgb(212 210 210);;
+}
+.homeFooter__mid{
+    border-bottom: 1px solid rgb(212 210 210);;
+}
+.homeFooter__midElement {
+    text-align: center;
+    margin-top: 45px;
+    margin-bottom: 15px;
+}
+.homeFooter__midElement > p {
+    font-size: 13px;
+    margin-bottom: 5px;
+    font-weight: 200;
+}
+.homeFooter__midElement > button {
+    width: 225px;
+    margin-bottom: 20px;
+    background-color: #f0c14b;
+    border-radius: 4px;
+    height: 30px;
+    border: 1px solid #9a7d46;
+    cursor: pointer;
+}
+.homeFooter__midElement > h6 {
+    margin-top: -10px;
+    font-weight: 400;
+}
+ a{
+    text-decoration: none;
+}
+.homeFooter__midElement > h6 > a:hover {
+    color: #af5d19;
+}
+.homeFooter__bottom{
+    height: 2vh;
+}
